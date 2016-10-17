@@ -1,0 +1,4 @@
+[contenteditable="true"]:active,
+[contenteditable="true"]:focus{
+    border:solid 3px #0B5AB0;
+}

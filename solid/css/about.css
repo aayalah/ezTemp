@@ -1,0 +1,88 @@
+.jumbotron {
+ padding-top: 257px;
+     background : -moz-linear-gradient(50% 0% -90deg,rgba(18, 9, 89, 1) 0%,rgba(9, 5, 45, 1) 100%);
+  background : -webkit-linear-gradient(-90deg, rgba(18, 9, 89, 1) 0%, rgba(9, 5, 45, 1) 100%);
+  background : -webkit-gradient(linear,50% 0% ,50% 100% ,color-stop(0,rgba(18, 9, 89, 1) ),color-stop(1,rgba(9, 5, 45, 1) ));
+  background : -o-linear-gradient(-90deg, rgba(18, 9, 89, 1) 0%, rgba(9, 5, 45, 1) 100%);
+  background : -ms-linear-gradient(-90deg, rgba(18, 9, 89, 1) 0%, rgba(9, 5, 45, 1) 100%);
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#120959', endColorstr='#09052D' ,GradientType=0)";
+  background : linear-gradient(180deg, rgba(18, 9, 89, 1) 0%, rgba(9, 5, 45, 1) 100%);
+  width : 100%;
+  height : auto;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#120959',endColorstr='#09052D' , GradientType=0);  
+}
+.jumbotron .container {
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+}
+.jumbotron img {}
+
+#inner1.container {
+    max-width: 700px;   
+}
+#inner1 {
+    padding-top: 80px;   
+}
+#inner1 p{
+    text-align: justify;
+    font-weight: 600;
+    color: #565656;
+    text-indent: 55px;
+}
+
+#inner2 {
+    padding-top: 50px;
+    
+    padding-bottom: 50px;
+}
+
+img#meal {
+    padding-top: 5px;   
+} 
+#inner1 .row {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#inner2 p {
+    padding-top: 7px;
+    padding-left: 7px;
+    text-align: justify;
+}
+#inner2 img {
+    width: 100%;
+    max-width: 900px;
+}
+img#loseWeight {
+    text-align: left;
+    width: 100%;
+    max-width: 629px;
+}
+img#food-pic {
+    margin-right: 20px;
+    float: left;
+    border:solid 2px #020202;
+    -webkit-box-shadow : 0px 1px 1.3px rgba(70, 70, 70, 0.8);
+	-moz-box-shadow : 0px 1px 1.3px rgba(70, 70, 70, 0.8);
+	box-shadow : 0px 1px 1.3px rgba(70, 70, 70, 0.8);
+    width: 100%;
+    max-width: 300px;
+}
+@media (max-width: 768px) {
+    img#food-pic {
+        float: none;
+        display: inline-block;
+        position: relative;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #inner1 p{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    p#firstP{
+        padding-top: 27px;   
+    }
+}
